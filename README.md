@@ -1,4 +1,6 @@
-# node 命令行
+# node 命令行教程
+
+本文先介绍原生的node.js实现命令行交互，了解原生的api,然后通过commander.js和inquirer.js实现一个完整的交互命令行工具。
 
 ## process （进程）
 process对象是一个全局变量，它提供了当前node.js进程的信息并对其控制。因为其是一个全局变量所以无需在文件中引入。
