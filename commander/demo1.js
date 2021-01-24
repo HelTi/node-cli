@@ -8,7 +8,7 @@ program
   .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
   .parse(process.argv);
 
-  console.log(program)
+  //console.log(program)
  
 console.log('you ordered a pizza with:');
 if (program.peppers) console.log('  - peppers');
